@@ -1,0 +1,121 @@
+📌 Real-Time Gesture Translator and Learning Platform for Hearing and Speech Impaired
+📖 Project Overview
+
+This project, “Real-Time Gesture Translator and Learning Platform for Hearing and Speech Impaired”, is a Final Year Engineering Project developed as part of the Bachelor of Technology (B.Tech) in Information Technology.
+
+The system uses Computer Vision and Deep Learning techniques to recognize sign language hand gestures in real time and translate them into text and speech output.
+Additionally, it provides an interactive learning platform for users to learn and practice sign language, promoting inclusivity and accessibility.
+
+🎯 Objectives
+To recognize hand gestures in real time using a webcam
+To translate ASL gestures into text and speech
+To provide a learning module for non-signers to learn sign language
+To bridge the communication gap between hearing-impaired and non-signers
+To build a user-friendly and low-cost assistive solution
+
+🧠 Technologies Used
+Programming Language: Python 3.10
+Libraries & Frameworks:
+OpenCV
+MediaPipe
+TensorFlow / Keras
+Tkinter (GUI)
+pyttsx3 (Text-to-Speech)
+IDE: PyCharm
+
+Platform: Desktop (Windows)
+
+🗂️ Project Structure
+PythonProject6/
+│
+├── recordings_demonstrations/   # Recorded demo videos for lessons (not uploaded)
+├── recordings_practice/         # User practice recordings (not uploaded)
+├── uploaded_lessons/            # Teacher uploaded lessons (not uploaded)
+│
+├── .gitignore                   # Git ignore configuration
+├── asl.py                       # Core ASL gesture recognition logic
+├── main.py                      # Main application entry point
+├── asl_users.db                 # User database (login & roles)
+├── A.h5                         # Trained CNN model (may be excluded if large)
+└── README.md                    # Project documentation
+
+⚠️ Important Note (Files Removed)
+
+Some folders and files have been intentionally removed from this GitHub repository due to large file size and video content restrictions, including:
+
+🎥 recordings_demonstrations/
+
+🎥 recordings_practice/
+
+🎥 uploaded_lessons/
+
+🧠 Large trained model files (.h5) if exceeding GitHub size limits
+👉 These files exist locally in the PyCharm project and were used during development, testing, and evaluation, but are not uploaded to GitHub to comply with repository size constraints.
+
+🧪 Features
+✅ Real-Time Gesture Recognition
+Captures live video through webcam
+Detects hand landmarks using MediaPipe\
+Classifies gestures using CNN
+Displays recognized letters instantly
+
+🔊 Text-to-Speech Translation
+Converts recognized gestures into voice output
+Enables real-time communication with non-signers
+
+📚 Learning Platform
+Structured lessons for ASL alphabets
+Practice mode with live feedback
+Teacher–Student role-based access
+🖥️ Graphical User Interface
+
+Built using Tkinter
+Simple, intuitive, and accessible UI
+Supports word formation and sentence building
+
+🧪 Performance
+
+Average Accuracy: ~92–93%
+Latency: < 0.5 seconds
+FPS: 24–28
+
+Works under:
+Normal lighting
+Moderate background variations
+
+🚀 How to Run the Project
+Clone the repository:
+git clone https://github.com/ShreyaDhote/Final-Year-Project.git
+Install required libraries:
+pip install opencv-python mediapipe tensorflow keras pyttsx3
+Run the application:
+python main.py
+⚠️ Ensure a working webcam is connected before running.
+
+🧩 Limitations
+Supports static ASL alphabets (A–Z) only
+Sensitive to very low lighting conditions
+Desktop-based (mobile version planned)
+No continuous sentence-level gesture recognition yet
+
+🔮 Future Scope
+Dynamic gesture & sentence recognition (LSTM / RNN)
+Android mobile application (TensorFlow Lite)
+Multilingual speech output
+Cloud-based model inference
+Integration with IoT and wearable devices
+Facial expression & body pose recognition
+
+
+👨‍🏫 Project Guide
+Mr. Ashish Kakne
+Assistant Professor, IT Department
+G H Raisoni College of Engineering and Management, Nagpur
+
+🏫 Academic Details
+Institute: G H Raisoni College of Engineering and Management, Nagpur
+Department: Information Technology
+Academic Year: 2025–2026
+Degree: Bachelor of Technology (B.Tech)
+📜 License
+This project is developed for academic and educational purposes only.
